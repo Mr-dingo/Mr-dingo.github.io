@@ -111,3 +111,87 @@ throw로 던져줄수 있는 예외의 종류는 다음과 같은 예외종류 �
 
 #### try & catch
 그렇다면 던져준 예외를 어떻게 처리를 하는지에 대해서 설명하도록 하겠다.<br>
+```c
+#include <iostream>
+#include <stdexcept>
+#include <vector>
+using namespace std;
+void function1(int i)
+{
+  if( i == 0 )
+    throw std::underflow_error("under flow error at function1");
+  else
+    cout<<"function1 complete!!!"<<endl;
+}
+void function2(int i)
+{
+  if ( i == 0 )
+    throw string("string error at function2");
+  else
+    cout<<"function2 complete!!!"<<endl;
+}
+void function3(int i)
+{
+  if ( i == 0 )
+    throw 1;
+  else
+    cout<<"function3 complete!!!"<<endl;
+}
+void function4(int i, int j, int k)
+{
+  function1(i);
+  function2(j);
+  function3(k);
+  cout<<"function4 complete!!!"<<endl;
+}
+
+int main() {
+  int i, j ,k= 0;
+  cin >> i >> j >> k;
+  try {
+    function4( i , j ,k);
+  } catch (std::exception& e) {
+    cout << e.what() << endl;
+  } catch (string s){
+    cout<< s <<endl;
+  } catch (...){
+    cout<<"default exception"<<endl;
+  }
+
+  return 0;
+}
+
+```
+다음은 try & catch 문을 사용하는 방법에 대한 전체 예제 소스코드이다.
+`function4`에서 function1, 2, 3 을 모두 수행시키는 예제이다. 코드를 보면 알겠지만 `function4`를 try 안에서 수행시키면
+try안에서 수행되는 명령 중에 예외가 throw 된 경우 던져진 예외를 catch에서 처리한다.
+```c
+catch( 특정타입 )
+```
+을 통해서 특정 타입으로 throw된 예제를 각각 받아서 처리할 수 있으며
+```c
+catch(...)
+```
+같은 경우는 모든 예외에 대해 catch하게 된다. 만약 이를 가장 처음 위치로 옮긴다면 특정 타입에 의한 catch문까지 가지못하고 
+`catch(...)`에서 처리가 되기 때문에 마지막에 위치해야한다.
+<br>
+각 cin의 인풋에 대한 수행결과는 다음과 같다.<br/>
+
+<img src="{{ site.baseurl }}/assets/img/cpp_exception/111error.png">
+인풋이 1 1 1 인 경우에는 모든 함수가 수행이 된다.<br><br>
+ <img src="{{ site.baseurl }}/assets/img/cpp_exception/110error.png">
+function3 에서 throw가 발생하며 int 를 캐치하는 부분은 `catch(...)` 이기 때문에 default exception으로 캐치하게 된다.<br><br>
+ <img src="{{ site.baseurl }}/assets/img/cpp_exception/100error.png">
+function2 에서 throw가 발생하며 string 을 캐치하여 exception을 처리한다.<br><br>
+ <img src="{{ site.baseurl }}/assets/img/cpp_exception/000error.png">
+function1 에서 throw가 발생하며 `std::exception` 을 캐치하여 exception을 처리한다.<br><br>
+
+ 
+ # 결론
+ * c++에서 지원하는 예외처리 방식을 사용하자.
+ * 대충 예외처리를 하게되면 (if문으로) 함수가 깊어지거나 복잡해 지는 경우 처리가 어렵다.
+ * c++ 에서 지원하는 예외의 종류를 익히고 적재적소에 사용하자.
+ * 예외처리에서 catch하는 throw타입의 종류를 각각 따로 처리할 수 있다.
+ * catch의 타입에 따른 순서를 주의할 필요가 있다.(child,parent member 함수의 경우)
+ * 따로 처리되지 않은 throw 타입은 catch(...)으로 catch 가능하다.
+ 
