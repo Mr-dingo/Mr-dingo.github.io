@@ -1,7 +1,10 @@
 ---
 layout: post
 title: "예외 처리"
-tag: [c/c++ 뽀개기]
+date:   2018-11-05 00:00:00
+author: luis lee
+categories: c/c++뽀개기
+tag: c/c++ 뽀개기
 ---
 
 # C++ 에서의 예외처리
