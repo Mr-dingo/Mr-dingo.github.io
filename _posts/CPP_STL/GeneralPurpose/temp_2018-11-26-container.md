@@ -7,8 +7,6 @@ categories: c/c++뽀개기
 tag: c/c++ 뽀개기
 ---
 
-<!-- TOC -->
-
 - [c++ 순차 컨테이너](#c-순차-컨테이너)
 - [각 container 의 특징!](#각-container-의-특징)
   - [array<T,N>](#arraytn)
@@ -16,8 +14,6 @@ tag: c/c++ 뽀개기
   - [deque<T>](#dequet)
   - [list<T>](#listt)
   - [forward_list<T>](#forward_listt)
-
-<!-- /TOC -->
 
 # c++ 순차 컨테이너
 
