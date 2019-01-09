@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: http://mr-dingo.github.io/sitemap.xml
