@@ -1,19 +1,16 @@
 ---
 layout: post
-title: "STL Sequence 컨테이너 [array,list,forward-list,vector,deque]"
+title: "STL Sequence 컨테이너 [array,vector]"
 date: 2018-11-26 00:00:00
 author: luis lee
 categories: c/c++뽀개기
 tag: c/c++ 뽀개기
 ---
 
-- [c++ 순차 컨테이너](#c-순차-컨테이너)
-- [각 container 의 특징!](#각-container-의-특징)
+- [c++ 순차 컨테이너](#c-%EC%88%9C%EC%B0%A8-%EC%BB%A8%ED%85%8C%EC%9D%B4%EB%84%88)
+- [각 container 의 특징!](#%EA%B0%81-container-%EC%9D%98-%ED%8A%B9%EC%A7%95)
   - [array<T,N>](#arraytn)
   - [vector<T>](#vectort)
-  - [deque<T>](#dequet)
-  - [list<T>](#listt)
-  - [forward_list<T>](#forward_listt)
 
 # c++ 순차 컨테이너
 
@@ -35,6 +32,8 @@ c++ stl의 컨테이너 중에서 순차 컨테이너에 대해 알아보자.<br
 
 이제부터 각 container 의 특징과 어떤 상황에서 좋은 성능을 보이고 어떤 상황에서는 매우 안좋은 성능을 보이는지를 확인해보자.
 이를 통해 자신이 구현하고자하는바에 알맞은 container를 사용하면 될 것이다.
+본 포스팅에서는 array 와 vector 에 관해서만 다루겠다.
+
 
 ## array<T,N>
 
@@ -107,10 +106,3 @@ vec.resize(20,0);
 <br>
 vector 를 사용하는 경우 메모리에 큰 영향이 안가는 한 initial capacity 를 지정해 주는 습관이 필요할 것 같다.
 
-## deque<T>
-
-작성중....
-
-## list<T>
-
-## forward_list<T>
