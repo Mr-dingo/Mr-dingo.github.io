@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "C++ Volatile 키워드"
+title: "C++ 전역변수의 static 과 extern 키워드"
 date: 2019-01-10 00:00:00
 author: luis lee
 categories: c/c++뽀개기
