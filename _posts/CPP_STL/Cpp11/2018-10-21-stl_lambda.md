@@ -1,7 +1,9 @@
 ---
 layout: post
 title: "lambda 함수에 대해서..."
-tag: [c++ stl]
+date:   2018-10-21 00:00:00
+categories: C++Stl
+author: luis lee
 ---
 # 오늘의 주제: `lambda`
 lambda 를 공부하던 도중 검색을 통해 아주 괜찮은 설명을 하고있는 [블로그](http://carstart.tistory.com/183)를 찾았다.

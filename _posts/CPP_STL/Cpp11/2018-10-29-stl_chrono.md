@@ -1,7 +1,9 @@
 ---
 layout: post
 title: "chrono 에 대해서..."
-tag: [c++ stl]
+date:   2018-10-29 00:00:00
+categories: C++Stl
+author: luis lee
 ---
 # 오늘의 주제: `chrono`
 c++11 에서 새로 도입된 ctime 을 대체할 수 있는 stl 인 chrono에 대해서 알아보도록 하자.

@@ -1,7 +1,9 @@
 ---
 layout: post
 title: "std::function에 대해서..."
-tag: [c++ stl]
+date:   2018-10-19 00:00:00
+categories: C++Stl
+author: luis lee
 ---
 
 # 오늘의 주제: `std::function`

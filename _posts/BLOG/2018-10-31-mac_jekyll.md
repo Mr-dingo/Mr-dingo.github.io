@@ -1,7 +1,9 @@
 ---
 layout: post
 title: "Mac OS Jekyll error"
-tag: [blog]
+date:   2018-10-31 00:00:00
+categories: 블로그관련
+author: luis lee
 ---
 
 # Mac OS jekyll 에러
