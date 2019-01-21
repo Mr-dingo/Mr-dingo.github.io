@@ -5,6 +5,13 @@ date:   2018-10-29 00:00:00
 categories: C++Stl
 author: luis lee
 ---
+<!-- TOC -->
+
+- [오늘의 주제: `chrono`](#%EC%98%A4%EB%8A%98%EC%9D%98-%EC%A3%BC%EC%A0%9C-chrono)
+  - [정리](#%EC%A0%95%EB%A6%AC)
+
+<!-- /TOC -->
+
 # 오늘의 주제: `chrono`
 c++11 에서 새로 도입된 ctime 을 대체할 수 있는 stl 인 chrono에 대해서 알아보도록 하자.
 chrono는 ctime 의 진화 버젼이라고 필자는 생각한다. 이는 더욱 최적화 되었으며 nano초 단위까지 측정할 수 있고 사용법이 굉장히 간단하다.

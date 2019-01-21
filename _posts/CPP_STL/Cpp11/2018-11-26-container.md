@@ -3,8 +3,7 @@ layout: post
 title: "STL Sequence 컨테이너 [array,vector]"
 date: 2018-11-26 00:00:00
 author: luis lee
-categories: c/c++뽀개기
-tag: c/c++ 뽀개기
+categories: C++Stl
 ---
 
 - [c++ 순차 컨테이너](#c-%EC%88%9C%EC%B0%A8-%EC%BB%A8%ED%85%8C%EC%9D%B4%EB%84%88)

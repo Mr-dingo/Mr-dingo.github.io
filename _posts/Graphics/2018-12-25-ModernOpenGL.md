@@ -5,7 +5,16 @@ date: 2018-12-25 01:00:00
 author: luis lee
 categories: OpenGL
 ---
+<!-- TOC -->
 
+- [Modern OpenGL 이란?](#modern-opengl-이란)
+    - [Introduction](#introduction)
+    - [Old vs. 'Modern'](#old-vs-modern)
+    - [Methods of learning](#methods-of-learning)
+    - [What exactly is 'modern' OpenGL](#what-exactly-is-modern-opengl)
+    - [끝](#끝)
+
+<!-- /TOC -->
 # Modern OpenGL 이란?
 
 본 포스팅은 [이 사이트](http://www.davidbishop.org/oglmeta)을 참고했다.

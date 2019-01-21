@@ -5,7 +5,16 @@ date:   2018-10-19 00:00:00
 categories: C++Stl
 author: luis lee
 ---
+<!-- TOC -->
 
+- [오늘의 주제: `std::function`](#%EC%98%A4%EB%8A%98%EC%9D%98-%EC%A3%BC%EC%A0%9C-stdfunction)
+  - [함수 포인터란 무엇인가?](#%ED%95%A8%EC%88%98-%ED%8F%AC%EC%9D%B8%ED%84%B0%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80)
+  - [함수 콜백이란 무엇인가?](#%ED%95%A8%EC%88%98-%EC%BD%9C%EB%B0%B1%EC%9D%B4%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80)
+  - [`std::function` 은 무엇인가?](#stdfunction-%EC%9D%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80)
+    - [일반 function pointer 의 문제점.](#%EC%9D%BC%EB%B0%98-function-pointer-%EC%9D%98-%EB%AC%B8%EC%A0%9C%EC%A0%90)
+    - [std::function을 이용하는 것의 장점.](#stdfunction%EC%9D%84-%EC%9D%B4%EC%9A%A9%ED%95%98%EB%8A%94-%EA%B2%83%EC%9D%98-%EC%9E%A5%EC%A0%90)
+
+<!-- /TOC -->
 # 오늘의 주제: `std::function`
 
 오늘의 주제는 `std::function` 이다. <br/>

@@ -6,7 +6,18 @@ author: luis lee
 categories: c/c++뽀개기
 tag: c/c++ 뽀개기
 ---
+<!-- TOC -->
 
+- [C++ 에서의 예외처리](#c-에서의-예외처리)
+    - [예외처리는 왜 할까?](#예외처리는-왜-할까)
+    - [단순한 예외처리방법](#단순한-예외처리방법)
+    - [c++ 에서의 예외처리](#c-에서의-예외처리)
+        - [throw, try & catch](#throw-try--catch)
+            - [throw](#throw)
+            - [try & catch](#try--catch)
+- [결론](#결론)
+
+<!-- /TOC -->
 # C++ 에서의 예외처리
 
 ## 예외처리는 왜 할까?

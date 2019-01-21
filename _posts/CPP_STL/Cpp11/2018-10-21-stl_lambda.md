@@ -5,6 +5,15 @@ date:   2018-10-21 00:00:00
 categories: C++Stl
 author: luis lee
 ---
+<!-- TOC -->
+
+- [오늘의 주제: `lambda`](#%EC%98%A4%EB%8A%98%EC%9D%98-%EC%A3%BC%EC%A0%9C-lambda)
+  - [함수 포인터, 함수 객체란?](#%ED%95%A8%EC%88%98-%ED%8F%AC%EC%9D%B8%ED%84%B0-%ED%95%A8%EC%88%98-%EA%B0%9D%EC%B2%B4%EB%9E%80)
+  - [`lambda` 란?](#lambda-%EB%9E%80)
+  - [`lambda` 의 사용법.](#lambda-%EC%9D%98-%EC%82%AC%EC%9A%A9%EB%B2%95)
+  - [결론](#%EA%B2%B0%EB%A1%A0)
+
+<!-- /TOC -->
 # 오늘의 주제: `lambda`
 lambda 를 공부하던 도중 검색을 통해 아주 괜찮은 설명을 하고있는 [블로그](http://carstart.tistory.com/183)를 찾았다.
 본 포스팅은 위의 블로그를 참고하였으며 lambda 가 나오게 된 발전의 역사를 간략하게 서술하고 있으며 내가 공부한 내용을 다시한번 정리해보고자 한다.

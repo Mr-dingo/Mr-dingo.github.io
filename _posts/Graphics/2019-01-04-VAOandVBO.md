@@ -10,9 +10,9 @@ categories: OpenGL
 
 - [Welcome to OpenGL 4.3](#welcome-to-opengl-43)
 - [VAO 와 VBO](#vao-와-vbo)
-  - [VBO 생성](#vbo-생성)
-  - [VAO & VBO 사용법](#vao--vbo-사용법)
-  - [Draw VAO](#draw-vao)
+    - [VBO 생성](#vbo-생성)
+    - [VAO & VBO 사용법](#vao--vbo-사용법)
+    - [Draw VAO](#draw-vao)
 - [끝](#끝)
 
 <!-- /TOC -->

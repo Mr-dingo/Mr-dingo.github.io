@@ -6,7 +6,11 @@ author: luis lee
 categories: c/c++뽀개기
 tag: c/c++ 뽀개기
 ---
+<!-- TOC -->
 
+- [static global 변수 (feat. extern)](#static-global-변수-feat-extern)
+
+<!-- /TOC -->
 # static global 변수 (feat. extern)
 
 보통의 경우 static 변수는 함수 내에서 지역변수 선언시 프로그램 종료까지 살아있길 바랄때 사용한다. 예를들어 특정 함수가 몇번 call 됬는지 알고 싶을때 전역변수를 사용하기보다는 static local 변수를 사용하는 것이다.

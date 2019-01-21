@@ -3,10 +3,15 @@ layout: post
 title: "Move semantics in C++"
 date: 2018-12-22 00:00:00
 author: luis lee
-categories: c/c++뽀개기
-tag: c/c++ 뽀개기
+categories: C++Stl
 ---
+<!-- TOC -->
 
+- [Move semantics](#move-semantics)
+  - [Move semantics 는 왜 필요한가?](#move-semantics-%EB%8A%94-%EC%99%9C-%ED%95%84%EC%9A%94%ED%95%9C%EA%B0%80)
+  - [정리](#%EC%A0%95%EB%A6%AC)
+
+<!-- /TOC -->
 # Move semantics
 
 c++ 11 부터 move semantics 라는 개념이 도입되었다.<br>

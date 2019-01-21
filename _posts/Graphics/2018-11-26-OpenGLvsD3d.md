@@ -6,7 +6,15 @@ date: 2018-11-26 01:00:00
 author: luis lee
 categories: Graphics
 ---
+<!-- TOC -->
 
+- [OpenGL vs DirectX](#opengl-vs-directx)
+    - [openGL 의 가장 큰 특징은 cross platform 이라는것!](#opengl-의-가장-큰-특징은-cross-platform-이라는것)
+    - [DirectX 은 게임업계에서 인기가 많다.](#directx-은-게임업계에서-인기가-많다)
+    - [정리해보면](#정리해보면)
+    - [끝](#끝)
+
+<!-- /TOC -->
 # OpenGL vs DirectX
 
 OpenGL , DirectX 에 대한 자료는 굉장히 쉽게 찾아볼 수 있으며 무슨일을 하는지 잘 설명되어있다.
