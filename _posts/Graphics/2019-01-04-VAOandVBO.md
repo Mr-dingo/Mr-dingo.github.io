@@ -67,7 +67,7 @@ VAO : Special type of object that encapsulates all the vertex data
 
 이러한 관계를 그림으로 나타내면 다음과 같다.
 
-![]({assets/Untitled-b4b56243-141e-41e7-9952-324001e3f21c.png)
+![]({/assets/Untitled-b4b56243-141e-41e7-9952-324001e3f21c.png)
 
 하나의 VAO 는 element array buffer (index buffer) 하나를 가지고 있으며 16개의 VBO 의 래퍼런스를 담을 수 있는 공간을 가지고 있다. 꼭 16개를 모두사용할 필요는 없으며 각각의 자리에 VBO 가 맵핑된다고 생각하면된다.
 
