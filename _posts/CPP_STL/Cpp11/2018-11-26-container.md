@@ -79,7 +79,7 @@ vec.capacity();
 vec.size();
 ```
 
-![]({{site.url}}/_posts/CPP_STL/Cpp11/img/cap_size.png)
+![](/assets/cpp/cap_size.png)
 
 즉, capacity 는 vec 에 할당되어있는 메모리의 크기를 나타내며 size 는 실제 vector 에 들어있는 원소의 갯수를 말해준다.
 vector 컨테이너는 데이터가 입력되는데 capacity에 전부 데이터가 차있는 상태라면 capacity 를 두배로 늘리는 할당을 수행하게된다.
