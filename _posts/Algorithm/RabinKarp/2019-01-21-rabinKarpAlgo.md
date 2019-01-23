@@ -13,7 +13,7 @@ tag: 알고리즘
 
 - 라핀 카프 알고리즘은 **장문의 문자열**에 **특정 문자열**이 **존재하는지 판단**할때 사용한다.
 
-![](./Untitled-f6fc2c3e-8609-4ea9-9413-bba4eb40f0a2.png)
+![]({{site.url}}/_posts/Algorithm/RabinKarp/Untitled-f6fc2c3e-8609-4ea9-9413-bba4eb40f0a2.png)
 
 **S** 라는 장문의 문자열이 있고 이 안에 타겟 문자열인 **T** 가 몇개가 매치되는가를 찾는 예제를 통해 설명할 예정이다.
 
@@ -53,21 +53,21 @@ $$H_i=S_i*2^2+S_{i+1}*2^1+S_{i+2}*2^0$$
 
 우리는 **H** 를 통해서 후보군이 아닌 문자열에 대한 탐색을 제거해 나갈 수 있다는 것이다. 그 방법에 대한 그림은 다음과같다.
 
-![](./Untitled-d3dd426b-0911-4faf-b863-8010e37edc7c.png)
+![]({{site.url}}/_posts/Algorithm/RabinKarp/Untitled-d3dd426b-0911-4faf-b863-8010e37edc7c.png)
 
 먼저 타겟 문자열의 H(해쉬 인덱스,수치화된 값)를 구한다.
 
-![](./Untitled-a7c4a0ec-369b-4718-8280-7521e36f20e9.png)
+![]({{site.url}}/_posts/Algorithm/RabinKarp/Untitled-a7c4a0ec-369b-4718-8280-7521e36f20e9.png)
 
 문자열 **S** 의 첫부분 부터 **H_0** 값을 구해나가며 **H**와 그 값이 같다면 실제로도 같은지 검사해본다.
 
-![](./Untitled-7da602db-324c-4870-a94d-6c5705517a02.png)
+![]({{site.url}}/_posts/Algorithm/RabinKarp/Untitled-7da602db-324c-4870-a94d-6c5705517a02.png)
 
 값이 다르다면 굳이 검사할 필요가 없이 계속 진행한다.
 
-![](./Untitled-e5d5c22f-fb8d-4339-8a94-1cef1d00fea7.png)
+![]({{site.url}}/_posts/Algorithm/RabinKarp/Untitled-e5d5c22f-fb8d-4339-8a94-1cef1d00fea7.png)
 
-![](./Untitled-cf7af7e0-7577-4d85-ba8b-c763ae132a47.png)
+![]({{site.url}}/_posts/Algorithm/RabinKarp/Untitled-cf7af7e0-7577-4d85-ba8b-c763ae132a47.png)
 
 끝까지 검사해보며 탐색해 나간다.
 

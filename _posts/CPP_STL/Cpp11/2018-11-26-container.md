@@ -33,7 +33,6 @@ c++ stl의 컨테이너 중에서 순차 컨테이너에 대해 알아보자.<br
 이를 통해 자신이 구현하고자하는바에 알맞은 container를 사용하면 될 것이다.
 본 포스팅에서는 array 와 vector 에 관해서만 다루겠다.
 
-
 ## array<T,N>
 
 타입 T 를 이용해서 컨테이너에 저장할 타입을 정의하고 특별하게 N 으로 고정된 길이를 정의한다.
@@ -80,7 +79,7 @@ vec.capacity();
 vec.size();
 ```
 
-![](./img/cap_size.png)
+![]({{site.url}}/_posts/CPP_STL/Cpp11/img/cap_size.png)
 
 즉, capacity 는 vec 에 할당되어있는 메모리의 크기를 나타내며 size 는 실제 vector 에 들어있는 원소의 갯수를 말해준다.
 vector 컨테이너는 데이터가 입력되는데 capacity에 전부 데이터가 차있는 상태라면 capacity 를 두배로 늘리는 할당을 수행하게된다.
@@ -104,4 +103,3 @@ vec.resize(20,0);
 
 <br>
 vector 를 사용하는 경우 메모리에 큰 영향이 안가는 한 initial capacity 를 지정해 주는 습관이 필요할 것 같다.
-

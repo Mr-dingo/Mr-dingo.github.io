@@ -10,9 +10,9 @@ categories: OpenGL
 
 - [Welcome to OpenGL 4.3](#welcome-to-opengl-43)
 - [VAO 와 VBO](#vao-와-vbo)
-    - [VBO 생성](#vbo-생성)
-    - [VAO & VBO 사용법](#vao--vbo-사용법)
-    - [Draw VAO](#draw-vao)
+  - [VBO 생성](#vbo-생성)
+  - [VAO & VBO 사용법](#vao--vbo-사용법)
+  - [Draw VAO](#draw-vao)
 - [끝](#끝)
 
 <!-- /TOC -->
@@ -67,7 +67,7 @@ VAO : Special type of object that encapsulates all the vertex data
 
 이러한 관계를 그림으로 나타내면 다음과 같다.
 
-![](./image/Untitled-b4b56243-141e-41e7-9952-324001e3f21c.png)
+![]({{site.url}}/_posts/Graphics/image/Untitled-b4b56243-141e-41e7-9952-324001e3f21c.png)
 
 하나의 VAO 는 element array buffer (index buffer) 하나를 가지고 있으며 16개의 VBO 의 래퍼런스를 담을 수 있는 공간을 가지고 있다. 꼭 16개를 모두사용할 필요는 없으며 각각의 자리에 VBO 가 맵핑된다고 생각하면된다.
 
@@ -218,7 +218,7 @@ index 를 이용한다고 했는데 지금까지 내용에서 Index 에 대한 �
 
 만약 직육면체를 그린다고 가정해보자.
 
-![](./image/Untitled-9b168c5b-4af9-4282-9ce3-aace4d083015.png)
+![]({{site.url}}/_posts/Graphics/image/Untitled-9b168c5b-4af9-4282-9ce3-aace4d083015.png)
 
 다음 직윤면체에서
 
