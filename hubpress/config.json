@@ -1,0 +1,30 @@
+{
+  "meta": {
+    "username": "Mr-dingo",
+    "repositoryName": "Mr-dingo.github.io",
+    "branch": "gh-pages"
+  },
+  "theme": {
+    "name": "casper"
+  },
+  "urls": {
+    "site": "https://Mr-dingo.github.io/Mr-dingo.github.io",
+    "hubpress": "https://mr-dingo.github.io/Mr-dingo.github.io",
+    "theme": "//Mr-dingo.github.io/Mr-dingo.github.io/themes/casper",
+    "images": "https://Mr-dingo.github.io/Mr-dingo.github.io/images"
+  },
+  "initialisationConfigComponent": {
+    "name": "initialise-configuration",
+    "computed": {},
+    "methods": {},
+    "staticRenderFns": [
+      null,
+      null,
+      null
+    ],
+    "_compiled": true,
+    "beforeCreate": [
+      null
+    ]
+  }
+}
